@@ -453,7 +453,7 @@ body {
 .menu-icon {
     display: none;
 }
-@media (max-width: 480px) {
+@media (max-width: 480px), (max-width: 768px), (max-width: 320px), (max-width: 375px), (max-width: 360px),(max-width: 412px), (max-width: 414px), (max-width: 820px) {
     .container {
         width: 100%;
         padding: 0.5rem;
@@ -482,7 +482,7 @@ body {
 
     .logo {
         font-size: 2.5rem;
-        margin-left: 25%;
+        margin-left: 10%;
         margin-right: 100%;
     }
 
@@ -595,69 +595,5 @@ body {
         width: 4rem;
         height: 4rem;
         font-size: 2.5rem;
-    }
-}
-@media (max-width: 768px) {
-    .contact h1 {
-        font-size: 3rem;
-    }
-
-    .contact form input,
-    .contact form textarea {
-        font-size: 1.4rem;
-    }
-
-    .contact form button {
-        font-size: 1.6rem;
-    }
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo {
-        margin-bottom: 1rem;
-    }
-    .home-content h1 {
-        font-size: 4rem;
-    }
-
-    .home-content h3 {
-        font-size: 2.5rem;
-    }
-
-    .home-content p {
-        font-size: 2rem;
-    }
-    .home-img img {
-        max-width: 300px;
-    }
-    .social-icons a {
-        width: 3rem;
-        height: 3rem;
-        font-size: 1.5rem;
-    }
-    .btn {
-        font-size: 1.6rem;
-        padding: 0.8rem 1.5rem;
-    }
-    .typing-text {
-        font-size: 2rem;
-    }
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 1rem 3%;
-    }
-
-    nav {
-        flex-direction: column;
-        width: 100%;
-        margin-top: 1rem;
-    }
-
-    nav a {
-        margin-left: 0;
-        margin-bottom: 1rem;
     }
 }
